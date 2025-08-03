@@ -1,0 +1,136 @@
+PID: 158352 START: 1754229719538075648 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://android.googlesource.com/kernel/manifest.git, -b, common-android12-5.10-lts, -m, default.xml, --depth=1 [sid=repo-20250803T140153Z-P00026a90/repo-20250803T140159Z-P00026a90]
+
+PID: 158352 START: 1754229719545303808 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 158352 END: 1754229719589756928 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 158352 START: 1754229719590722560 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 158352 END: 1754229719592721920 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 158352 START: 1754229719594663168 :: parsing /root/.gitconfig
+
+PID: 158352 END: 1754229719594757888 :: parsing /root/.gitconfig
+
+PID: 158352 START: 1754229719594905856 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 158352 END: 1754229719596601088 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 158352 START: 1754229719596726528 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 158352 END: 1754229719598605312 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 158352 START: 1754229719598823936 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 158352 END: 1754229719600403200 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 158352 START: 1754229719600563968 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.depth', '1'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all repo.depth 1 1>| 2>|
+
+PID: 158352 END: 1754229719602125824 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.depth', '1'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all repo.depth 1 1>| 2>|
+
+PID: 158352 START: 1754229719602367744 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://android.googlesource.com/kernel/manifest.git'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all remote.origin.url https://android.googlesource.com/kernel/manifest.git 1>| 2>|
+
+PID: 158352 END: 1754229719603878144 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://android.googlesource.com/kernel/manifest.git'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all remote.origin.url https://android.googlesource.com/kernel/manifest.git 1>| 2>|
+
+PID: 158352 START: 1754229719604054272 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 158352 END: 1754229719612050176 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 158352 START: 1754229719612261376 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 158352 END: 1754229719616111360 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 158352 START: 1754229719616293120 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 158352 END: 1754229719617899776 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 158352 START: 1754229719618027520 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 158352 END: 1754229719619648768 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 158352 START: 1754229719619936512 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'fetch', '--depth=1', '--quiet', 'origin', '--recurse-submodules=no', '--no-tags', '+refs/heads/common-android12-5.10-lts:refs/remotes/origin/common-android12-5.10-lts'] with debug: : export GIT_OBJECT_DIRECTORY=/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/objects
+: git fetch --depth=1 --quiet origin --recurse-submodules=no --no-tags +refs/heads/common-android12-5.10-lts:refs/remotes/origin/common-android12-5.10-lts 1>| 2>&1
+
+PID: 158352 END: 1754229720714797056 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'fetch', '--depth=1', '--quiet', 'origin', '--recurse-submodules=no', '--no-tags', '+refs/heads/common-android12-5.10-lts:refs/remotes/origin/common-android12-5.10-lts'] with debug: : export GIT_OBJECT_DIRECTORY=/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/objects
+: git fetch --depth=1 --quiet origin --recurse-submodules=no --no-tags +refs/heads/common-android12-5.10-lts:refs/remotes/origin/common-android12-5.10-lts 1>| 2>&1
+
+PID: 158352 START: 1754229720715008768 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 158352 END: 1754229720717165824 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 158352 START: 1754229720718005504 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/common-android12-5.10-lts^0'] with debug: : git rev-parse --verify refs/remotes/origin/common-android12-5.10-lts^0 1>| 2>|
+
+PID: 158352 END: 1754229720720350720 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/common-android12-5.10-lts^0'] with debug: : git rev-parse --verify refs/remotes/origin/common-android12-5.10-lts^0 1>| 2>|
+
+PID: 158352 START: 1754229720720969216 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/a/android_kernel_xiaomi_diting/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 158352 END: 1754229720723638016 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/a/android_kernel_xiaomi_diting/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 158352 START: 1754229720723840256 :: load refs /home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+
+PID: 158352 END: 1754229720724519168 :: load refs /home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+
+PID: 158352 START: 1754229720725050624 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'checkout', '-q', '2555812df0efb75a3100eac7e48078e77d21a7a5', '--'] with debug: : git checkout -q 2555812df0efb75a3100eac7e48078e77d21a7a5 -- 2>|
+
+PID: 158352 END: 1754229720727603968 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'checkout', '-q', '2555812df0efb75a3100eac7e48078e77d21a7a5', '--'] with debug: : git checkout -q 2555812df0efb75a3100eac7e48078e77d21a7a5 -- 2>|
+
+PID: 158352 START: 1754229720727951872 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 158352 END: 1754229720730018560 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 158352 START: 1754229720730656000 :: scan refs /home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+
+PID: 158352 END: 1754229720730808320 :: scan refs /home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+
+PID: 158352 START: 1754229720731229440 :: scan refs /home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+
+PID: 158352 END: 1754229720731422208 :: scan refs /home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+
+PID: 158352 START: 1754229720731759104 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '2555812df0efb75a3100eac7e48078e77d21a7a5'] with debug: : git update-ref refs/heads/default 2555812df0efb75a3100eac7e48078e77d21a7a5 1>| 2>|
+
+PID: 158352 END: 1754229720733976320 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '2555812df0efb75a3100eac7e48078e77d21a7a5'] with debug: : git update-ref refs/heads/default 2555812df0efb75a3100eac7e48078e77d21a7a5 1>| 2>|
+
+PID: 158352 START: 1754229720734347776 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 158352 END: 1754229720736630784 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 158352 START: 1754229720740644352 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 158352 END: 1754229720742087168 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 158352 END: 1754229720742172416 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://android.googlesource.com/kernel/manifest.git, -b, common-android12-5.10-lts, -m, default.xml, --depth=1 [sid=repo-20250803T140153Z-P00026a90/repo-20250803T140159Z-P00026a90]
+
+PID: 158429 START: 1754229736686284288 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init [sid=repo-20250803T140216Z-P00026add/repo-20250803T140216Z-P00026add]
+
+PID: 158429 START: 1754229736688259584 :git command None ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 158429 END: 1754229736691250944 :git command None ['git', 'config', '--file', '/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/a/android_kernel_xiaomi_diting/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 158429 START: 1754229736691555072 :: parsing /root/.gitconfig
+
+PID: 158429 END: 1754229736691667712 :: parsing /root/.gitconfig
+
+PID: 158429 START: 1754229736701329664 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'fetch', '--depth=1', '--quiet', 'origin', '--recurse-submodules=no', '--no-tags', '+refs/heads/common-android12-5.10-lts:refs/remotes/origin/common-android12-5.10-lts'] with debug: : export GIT_DIR=/home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/objects
+: git fetch --depth=1 --quiet origin --recurse-submodules=no --no-tags +refs/heads/common-android12-5.10-lts:refs/remotes/origin/common-android12-5.10-lts 1>| 2>&1
+
+PID: 158429 END: 1754229737906201600 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'fetch', '--depth=1', '--quiet', 'origin', '--recurse-submodules=no', '--no-tags', '+refs/heads/common-android12-5.10-lts:refs/remotes/origin/common-android12-5.10-lts'] with debug: : export GIT_DIR=/home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/a/android_kernel_xiaomi_diting/.repo/manifests.git/objects
+: git fetch --depth=1 --quiet origin --recurse-submodules=no --no-tags +refs/heads/common-android12-5.10-lts:refs/remotes/origin/common-android12-5.10-lts 1>| 2>&1
+
+PID: 158429 START: 1754229737906620928 :: load refs /home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+
+PID: 158429 END: 1754229737906971392 :: load refs /home/a/android_kernel_xiaomi_diting/.repo/manifests.git
+
+PID: 158429 START: 1754229737925961472 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 158429 END: 1754229737928082176 :git command /home/a/android_kernel_xiaomi_diting/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 158429 END: 1754229737928283904 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init [sid=repo-20250803T140216Z-P00026add/repo-20250803T140216Z-P00026add]
+
