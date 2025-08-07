@@ -53,6 +53,12 @@ config IP_ADVANCED_ROUTER
 
 	  If unsure, say N here.
 
+config TCP_CONG_PIXIE
+	tristate "PIXIE TCP"
+	default n
+	help
+	  PIXIE TCP congestion control algorithm.
+
 config IP_FIB_TRIE_STATS
 	bool "FIB TRIE statistics"
 	depends on IP_ADVANCED_ROUTER
